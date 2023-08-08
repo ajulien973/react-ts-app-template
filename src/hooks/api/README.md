@@ -1,0 +1,1 @@
+This will host API specific custom hooks which wrap React Query hooks in order to provide a clear separation of concern. This separates the data layer from the presentation layer of our React app.
