@@ -1,25 +1,9 @@
-<p align='center'>
-  <img src='https://i.imgur.com/KVmyXyo.png' alt='Vital - Vite Starter Template' width='600'/>
-</p>
-
-<p align='center'>
-Mocking up web app with <b>Vital</b><sup><em>(speed)</em></sup><br>
-</p>
-
-<br>
-
-<p align='center'>
-<a href="https://vital.josepvidal.dev">Live Demo</a>
-</p>
-
-<br>
-
 ## Features
 
 - ⚡️ [React 18](https://beta.reactjs.org/)
-- 🦾 TypeScript, of course
-- 🫀 [Jest](https://jestjs.io/) - unitary testing made easy
-- 🎨 [Tailwind with JIT](https://tailwindcss.com/) - next generation utility-first CSS
+- 🦾 TypeScript
+- 🫀 [Jest](https://jestjs.io/)
+- 🎨 [Tailwind with JIT](https://tailwindcss.com/)
 - 🪢 [CSS Modules](https://github.com/css-modules/css-modules)
 - 👑 [Atomic Design organization](https://www.justinmind.com/blog/atomic-design/)
 - 🗂 [Absolute imports](https://github.com/vitejs/vite/issues/88#issuecomment-762415200)
@@ -28,29 +12,28 @@ Mocking up web app with <b>Vital</b><sup><em>(speed)</em></sup><br>
 
 ### Coding Style
 
-- [ESLint](https://eslint.org/) - configured for React/Hooks & TypeScript
+- [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 
 ### Dev tools
 
 - [TypeScript](https://www.typescriptlang.org/)
-- [Commit lint](https://github.com/conventional-changelog/commitlint) - helps your team adhering to a commit convention
-- [Netlify](https://www.netlify.com/) - zero-config deployment
+- [Netlify](https://www.netlify.com/)
 
-## Try it now!
+## Try it
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/jvidalv/vital/generate).
+[Create a repo from this template on GitHub](https://github.com/ajulien973/react-ts-app-template/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit jvidalv/vital my-vital-app
-cd my-vital-app
-yarn # If you don't have yarn installed, run: npm install -g yarn
+npx degit ajulien973/react-ts-app-template my-app
+cd my-app
+pnpm install
 ```
 
 ## Checklist
@@ -64,8 +47,6 @@ When you use this template, try follow the checklist to update your info properl
 - [ ] Modify the manifest in `public`
 - [ ] Clean up the README's
 
-And, enjoy :)
-
 ## Usage
 
 ### Development
@@ -73,7 +54,7 @@ And, enjoy :)
 Just run and visit http://localhost:3000
 
 ```bash
-yarn start
+pnpm start
 ```
 
 ### Build
@@ -81,7 +62,7 @@ yarn start
 To build the App, run
 
 ```bash
-yarn build
+pnpm build
 ```
 
 And you will see the generated file in `dist` that ready to be served.
@@ -103,3 +84,5 @@ By default this command should be triggered after yarn/npm deps are installed.
 I have created several React apps recently. Setting the configs up is kinda the bottleneck for me to make the ideas simply come true within a very short time.
 
 So I made this starter template for myself to create apps more easily, along with some good practices that I have learned from making those apps. Feel free to tweak it or even maintains your own forks.
+
+Props to https://github.com/jvidalv/vital for the initial idea.
