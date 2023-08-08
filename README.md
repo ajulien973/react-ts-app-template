@@ -21,7 +21,7 @@ Mocking up web app with <b>Vital</b><sup><em>(speed)</em></sup><br>
 - 🫀 [Jest](https://jestjs.io/) - unitary testing made easy
 - 🎨 [Tailwind with JIT](https://tailwindcss.com/) - next generation utility-first CSS
 - 🪢 [CSS Modules](https://github.com/css-modules/css-modules)
-- 👑 [Atomic Design organization](https://bradfrost.com/blog/post/atomic-web-design/)
+- 👑 [Atomic Design organization](https://www.justinmind.com/blog/atomic-design/)
 - 🗂 [Absolute imports](https://github.com/vitejs/vite/issues/88#issuecomment-762415200)
 - 😃 [Hero icons](https://heroicons.com/)
 - ☁️ Deploy on Netlify, zero-config
