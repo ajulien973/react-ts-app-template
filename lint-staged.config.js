@@ -3,6 +3,6 @@ module.exports = {
   "*.{ts,tsx}": [
     "eslint . --cache --fix --ext .tsx --ext .ts",
     () => "pnpm tsc",
-    () => "pnpm jest",
+    () => "pnpm jest --passWithNoTests",
   ],
 };
